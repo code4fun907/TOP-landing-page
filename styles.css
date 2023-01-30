@@ -10,11 +10,6 @@
   margin: 0;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   font-family: Roboto, sans-serif;
   background: #1f2937;
@@ -116,3 +111,53 @@ header button {
 }
 
 /* End of header */
+
+/* Information Section */
+
+.information {
+  display: flex;
+  background: white;
+  padding-bottom: 50px;
+}
+
+.information-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.information-wrapper div {
+  display: flex;
+  gap: 40px;
+}
+
+.information-wrapper h2 {
+  font-size: 32px;
+  color: #1f2937;
+}
+
+.information-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  max-width: 150px;
+}
+
+.information-box div {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3883f6;
+  border-radius: 10px;
+  margin-bottom: -35px;
+}
+
+.information-box p {
+  font-size: 15px;
+  color: grey;
+}
+
+/* End of information section */
