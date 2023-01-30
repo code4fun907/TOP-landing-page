@@ -16,7 +16,6 @@ body {
 }
 
 body {
-  line-height: 1.5;
   font-family: Roboto, sans-serif;
   background: #1f2937;
   -webkit-font-smoothing: antialiased;
@@ -73,3 +72,47 @@ nav ul {
 }
 
 /* End of navigation */
+
+/* Header Section */
+
+header {
+  display: flex;
+  margin: 100px auto;
+  max-width: 1100px;
+  gap: 50px;
+}
+
+header h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  width: 16ch;
+}
+
+header p {
+  color: #e5e7eb;
+  font-size: 18px;
+  width: 45ch;
+  margin: 10px 0px;
+}
+
+header button {
+  background: #3883f6;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 35px;
+}
+
+.placeholder-img {
+  background: grey;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+}
+
+/* End of header */
