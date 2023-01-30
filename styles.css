@@ -176,3 +176,37 @@ header button {
 }
 
 /* End of quote section */
+
+/* Cta Section  */
+
+.cta {
+  display: flex;
+  background: white;
+}
+
+.cta-wrapper {
+  margin: 100px auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.blue-box {
+  background: #3883f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  color: white;
+  border-radius: 10px;
+}
+
+.blue-box button {
+  border: 2px solid white;
+  padding: 0 45px;
+  background: none;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* End of cta section */
