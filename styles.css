@@ -210,3 +210,16 @@ header button {
 }
 
 /* End of cta section */
+
+.footer {
+  display: flex;
+  margin: 20px auto;
+  max-width: 1100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: #f9faf8;
+  font-size: 18px;
+}
